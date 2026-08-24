@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR Pull Request"
+  short_description: "Create accurate GitHub pull requests"
+  default_prompt: "Use $ar-pr to create or update a pull request for the current branch."

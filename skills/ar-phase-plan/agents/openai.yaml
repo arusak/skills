@@ -1,0 +1,6 @@
+interface:
+  display_name: "AR Phase Plan"
+  short_description: "Plan a phase through the feature workflow"
+  default_prompt: "Use $ar-phase-plan to create the plan for the next phase of this design."
+policy:
+  allow_implicit_invocation: false

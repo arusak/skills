@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR Grilling"
+  short_description: "Stress-test a decision through interview"
+  default_prompt: "Use $ar-grilling to rigorously test this plan and reach shared understanding."

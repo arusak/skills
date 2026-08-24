@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR Implement"
+  short_description: "Implement work from a specification or plan"
+  default_prompt: "Use $ar-implement to implement the work described in this plan."
