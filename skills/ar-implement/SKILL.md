@@ -18,6 +18,6 @@ Run full test suite and lint once at the end.
 
 Once done, use /code-review to review the work.
 
-Commit your work to the current branch.
+Commit your work to the current branch, including the spec file if it's not committed yet.
 
 Create a report file named similarly to spec or plan. Report briefly to chat about what you did and how you used subagents. Chat in Russian, files in English.
