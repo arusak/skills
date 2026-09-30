@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR NPM Publish"
+  short_description: "Safely validate and publish an npm package"
+  default_prompt: "Use $ar-npm-publish to prepare and publish an npm package release."
