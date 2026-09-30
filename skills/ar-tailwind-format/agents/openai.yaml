@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR Tailwind Format"
+  short_description: "Format Tailwind classes clearly"
+  default_prompt: "Use $ar-tailwind-format to organize Tailwind classes in the target files."
