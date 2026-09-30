@@ -4,8 +4,6 @@ This is a personal collection of agentic skills. They should be used together wi
 
 These skills partially override Matt's; they are also designed for the specific process I use in my projects.
 
-And yeah, they speak Russian.
-
 ## Installation
 
 These skills extend Matt Pocock's skills, so install Matt's set first. The examples target Codex; replace `codex` with `claude-code` or another supported agent, or pass multiple names with `--agent codex claude-code`.

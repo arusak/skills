@@ -5,7 +5,7 @@ description: Create an approved, implementation-ready feature plan from a free-f
 
 # Feature Plan
 
-Create an approved, implementation-ready feature plan from a free-form introduction. Chat in Russian and write files in English.
+Create an approved, implementation-ready feature plan from a free-form introduction.
 
 ## Contract
 
