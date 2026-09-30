@@ -1,0 +1,4 @@
+interface:
+  display_name: "AR Review Leftovers"
+  short_description: "Find accidental branch changes"
+  default_prompt: "Use $ar-review-leftovers to audit this branch for accidental development leftovers."
