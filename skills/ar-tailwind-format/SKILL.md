@@ -47,3 +47,12 @@ Prefer multi-class groups. A single-class line is appropriate when it is the onl
 ## Comments
 
 Express ordinary styling through the groups themselves. Add a comment only when it explains non-obvious conditional styling, a layout workaround, meaningful z-index layering, or critical breakpoint behavior that the classes alone do not communicate.
+
+## Conditional classes
+
+Always add `cn()` when some conditional logic for classes has place.
+
+```jsx
+className={`border ${isAlert ? "border-alert" : "border-border"}`} // bad
+className={cn("border", isAlert ? "border-alert" : "border-border")} // good
+```
