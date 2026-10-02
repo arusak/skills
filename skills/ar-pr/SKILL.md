@@ -11,13 +11,15 @@ description: Create or update accurate GitHub pull requests for pushed branches 
 - Identify the repository, current branch, upstream branch, and default base.
 - Confirm the branch is pushed and is not the base branch.
 - Inspect `git status`; never describe uncommitted changes as part of the PR.
-- Compare `base...HEAD`, including commits, changed files, and material diff hunks.
+- Compare the net `base...HEAD` changes, including commits, changed files, and material diff hunks. If output is truncated, inspect material hunks in smaller batches until covered.
+- Before drafting, make a short inventory of user-facing behavior, state changes, and significant restructuring in that net diff.
 - Read repository documents to better understand the reasons for the changes.
 - Stop if the branch already has an open PR; never create a duplicate. Surface this to the user.
 
 ## Build the PR
 
-- Derive the title and body from the pushed diff, not from conversation claims.
+- Identify the PR's primary purpose from the inventory and derive the title and body from it. The first or last commit, branch name, or a file move cannot stand in for the full diff.
+- Check that the title and every body bullet accurately reflect that purpose and the net changes.
 - The title should use a conventional commit format with a prefix containing the task number (if you know it or can derive it from the branch name) or a feature name.
 - Keep the title imperative, specific, and aligned with repository conventions.
 - Use dashes as bullets.
